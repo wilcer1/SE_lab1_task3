@@ -25,7 +25,7 @@ public class Receiver extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(Receiver.class.getResource("hello-view.fxml"));
         stage.setTitle("Hello!");
         root.getChildren().add(fxmlLoader.load());
-        Scene scene = new Scene(root, 320, 240);
+        Scene scene = new Scene(root, 600, 600);
         stage.setScene(scene);
         stage.show();
 
